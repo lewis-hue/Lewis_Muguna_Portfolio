@@ -1,9 +1,12 @@
 # Projects - Lewis Muguna
 
-This Portfolio is a compilation of all the Data Science, Data Engineering, and Data Analysis projects I have worked on for academic, professional, and self-learning purposes. It showcases my achievements, skills, and certifications, and is updated regularly with new projects and experiences.
+This portfolio showcases my end-to-end expertise in Data Science, AI Engineering, and Data Infrastructure, featuring projects developed through professional engagements, academic research, and independent innovation. Each project highlights my ability to design scalable, cloud-native AI systems, perform data-driven analysis, and build intelligent automation solutions that solve real-world problems.
 
-- **Email**: [lewiemuguna417@gmail.com](mailto:lewis.muguna417@gmail.com)
-- **LinkedIn**: [www.linkedin.com/in/lewis-muguna-070080166](https://www.linkedin.com/in/lewis-muguna-070080166)
+It serves as a living record of my achievements, technical growth, and certifications, and is regularly updated with new projects that reflect the latest advancements in Machine Learning, Generative AI, and MLOps.
+
+📧 Email: lewiemuguna417@gmail.com
+
+🔗 LinkedIn: www.linkedin.com/in/lewis-muguna-070080166
 
 ## Projects
 
