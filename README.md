@@ -11,7 +11,7 @@ It serves as a living record of my achievements, technical growth, and certifica
 ## Projects
 
 #
-<img align="left" width="250" height="150" src="https://github.com/lewis-hue/Lewis_Data_Science_Profile/blob/main/download%20(1).jpg"> **[Agentic Viral Video Orchestrator (AVVO)](https://github.com/lewis-hue/Agentic-Viral-Video-Orchestrator.git)**
+<img align="left" width="250" height="150" src="https://github.com/lewis-hue/Agentic-Viral-Video-Orchestrator/blob/main/AVVO%20System%20Overview.png"> **[Agentic Viral Video Orchestrator (AVVO)](https://github.com/lewis-hue/Agentic-Viral-Video-Orchestrator.git)**
 
 **Agentic Viral Video Orchestrator (AVVO)** is a multi-agent **AI automation system** that autonomously discovers viral trends, generates short-form videos, and distributes them across multiple social media platforms.  
 Built using **Python (FastAPI)** for the backend and **React + TypeScript** for the frontend, AVVO integrates **LangChain**, **Gemini 2.5-Flash**, and **FAISS** for intelligent content generation and retrieval.  
