@@ -11,6 +11,19 @@ It serves as a living record of my achievements, technical growth, and certifica
 ## Projects
 
 #
+<img align="left" width="250" height="150" src="https://github.com/lewis-hue/Lewis_Data_Science_Profile/blob/main/download%20(1).jpg"> **[Agentic Viral Video Orchestrator (AVVO)](https://github.com/lewis-hue/Agentic-Viral-Video-Orchestrator.git)**
+
+**Agentic Viral Video Orchestrator (AVVO)** is a multi-agent **AI automation system** that autonomously discovers viral trends, generates short-form videos, and distributes them across multiple social media platforms.  
+Built using **Python (FastAPI)** for the backend and **React + TypeScript** for the frontend, AVVO integrates **LangChain**, **Gemini 2.5-Flash**, and **FAISS** for intelligent content generation and retrieval.  
+The system leverages **Celery** and **Redis** for task scheduling and parallel processing, **Cloudinary** for media storage and public video URLs, **Zapier Webhooks** for seamless automation triggers, and **Buffer API** for automated publishing workflows.  
+Additional integrations with **OpenAI**, **Vertex AI Veo**, and **Google TTS** enable generative video synthesis and narration.  
+The solution runs on **Dockerized infrastructure**, backed by **PostgreSQL**, and deploys via **AWS/GCP** with **CI/CD pipelines** managed through **GitHub Actions**.  
+AVVO’s architecture is designed for **scalability**, **continuous optimization**, and **real-time feedback loops**, making it a **production-ready AI system** for teams aiming to scale viral content creation through automation and machine learning.
+ 
+
+
+
+#
 <img align="left" width="250" height="150" src="https://github.com/lewis-hue/Lewis_Data_Science_Profile/blob/main/download%20(1).jpg"> **[Agentic Plan Workbench: LLM-Powered Red Teaming for Function Calls](https://github.com/lewis-hue/Agentic-Plan-Workbench.git)**
 
 This production-grade, full-stack web application serves as an interactive development environment (IDE) for building and validating complex AI agent behaviors. At its core, the application employs a multi-agent "red teaming" architecture where a Critic agent, powered by a high-speed LLM like Groq LLaMA 3, performs an adversarial analysis of user-defined function-calling plans. This process identifies subtle logical flaws, semantic errors, and schema violations, culminating in the automated generation of an optimized "Golden Plan" and preventing unreliable agent actions. The developer experience is centered around an interactive workbench featuring the Monaco Editor, providing a familiar, code-centric workflow for rapid iteration.
