@@ -26,7 +26,7 @@ AVVO’s architecture is designed for **scalability**, **continuous optimization
 <img align="left" width="250" height="150" src="https://github.com/lewis-hue/REVIEWS-HQ/blob/main/flex.webp"> **[Reviews HQ - AI-Powered Property Management Analytics Platform](https://github.com/lewis-hue/REVIEWS-HQ.git)**
 
 
-Reviews HQ is a high-performance, full-stack AI analytics platform. Its asynchronous FastAPI (Python) backend leverages the Groq LLM for real-time sentiment analysis and WebSockets for live UI updates. The responsive frontend is built with React 18, TypeScript, and React Query. The application uses MongoDB Atlas and is containerized with Docker for scalable deployment on Google Cloud Run.
+Reviews HQ is an AI analytics platform for property management, offering real-time sentiment analysis. It streamlines guest communication with AI response suggestions, live translation, and voice-to-text. The high-performance stack uses a FastAPI backend with Groq LLM, a React 18 frontend, and MongoDB Atlas, deployed scalably via Docker on Google Cloud Run.
 
 
  
