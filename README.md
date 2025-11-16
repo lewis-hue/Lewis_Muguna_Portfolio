@@ -11,14 +11,7 @@ It serves as a living record of my achievements, technical growth, and certifica
 ## Projects
 
 #
-<img align="left" width="250" height="150" src="https://github.com/lewis-hue/REVIEWS-HQ/blob/main/flex.webp"> **[Agentic Viral Video Orchestrator (AVVO)](https://github.com/lewis-hue/REVIEWS-HQ.git)**
-
-
-Reviews HQ is a high-performance, full-stack AI analytics platform. Its asynchronous FastAPI (Python) backend leverages the Groq LLM for real-time sentiment analysis and WebSockets for live UI updates. The responsive frontend is built with React 18, TypeScript, and React Query. The application uses MongoDB Atlas and is containerized with Docker for scalable deployment on Google Cloud Run.
- 
-
-#
-<img align="left" width="250" height="150" src="https://github.com/lewis-hue/Agentic-Viral-Video-Orchestrator/blob/main/AVVO%20System%20Overview.png"> **[Reviews HQ - AI-Powered Property Management Analytics Platform](https://github.com/lewis-hue/Agentic-Viral-Video-Orchestrator.git)**
+<img align="left" width="250" height="150" src="https://github.com/lewis-hue/Agentic-Viral-Video-Orchestrator/blob/main/AVVO%20System%20Overview.png"> **[Agentic Viral Video Orchestrator (AVVO)](https://github.com/lewis-hue/Agentic-Viral-Video-Orchestrator.git)**
 
 **Agentic Viral Video Orchestrator (AVVO)** is a multi-agent **AI automation system** that autonomously discovers viral trends, generates short-form videos, and distributes them across multiple social media platforms.  
 Built using **Python (FastAPI)** for the backend and **React + TypeScript** for the frontend, AVVO integrates **LangChain**, **Gemini 2.5-Flash**, and **FAISS** for intelligent content generation and retrieval.  
@@ -26,8 +19,17 @@ The system leverages **Celery** and **Redis** for task scheduling and parallel p
 Additional integrations with **OpenAI**, **Vertex AI Veo**, and **Google TTS** enable generative video synthesis and narration.  
 The solution runs on **Dockerized infrastructure**, backed by **PostgreSQL**, and deploys via **AWS/GCP** with **CI/CD pipelines** managed through **GitHub Actions**.  
 AVVO’s architecture is designed for **scalability**, **continuous optimization**, and **real-time feedback loops**, making it a **production-ready AI system** for teams aiming to scale viral content creation through automation and machine learning.
- 
 
+
+
+#
+<img align="left" width="250" height="150" src="https://github.com/lewis-hue/REVIEWS-HQ/blob/main/flex.webp"> **[Reviews HQ - AI-Powered Property Management Analytics Platform](https://github.com/lewis-hue/REVIEWS-HQ.git)**
+
+
+Reviews HQ is a high-performance, full-stack AI analytics platform. Its asynchronous FastAPI (Python) backend leverages the Groq LLM for real-time sentiment analysis and WebSockets for live UI updates. The responsive frontend is built with React 18, TypeScript, and React Query. The application uses MongoDB Atlas and is containerized with Docker for scalable deployment on Google Cloud Run.
+
+
+ 
 #
 <img align="left" width="250" height="150" src="https://github.com/lewis-hue/Lewis_Data_Science_Profile/blob/main/download%20(1).jpg"> **[Agentic Plan Workbench: LLM-Powered Red Teaming for Function Calls](https://github.com/lewis-hue/Agentic-Plan-Workbench.git)**
 
