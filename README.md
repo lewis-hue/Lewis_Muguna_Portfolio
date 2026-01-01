@@ -11,7 +11,7 @@ It serves as a living record of my achievements, technical growth, and certifica
 ## Projects
 
 #
-<img align="left" width="250" height="150" src="https://github.com/lewis-hue/Agentic-Viral-Video-Orchestrator/blob/main/AVVO%20System%20Overview.png"> **[ANAGUM CODER](https://github.com/lewis-hue/Anagum-coder.git)**
+<img align="left" width="250" height="150" src="https://github.com/lewis-hue/Anagum-coder/blob/main/logo.png"> **[🔷 ANAGUM-CODER: The Blueprint-First Agentic Platform](https://github.com/lewis-hue/Anagum-coder.git)**
 
 ANAGUM-CODER is not just another autocomplete tool. It is a revolutionary VS Code Integrated Development Environment (IDE) Layer that transforms coding from simple text generation into intelligent system architecture.
 
