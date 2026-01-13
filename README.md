@@ -15,7 +15,9 @@ It serves as a living record of my achievements, technical growth, and certifica
 
 ANAGUM-CODER is not just another autocomplete tool. It is a revolutionary VS Code Integrated Development Environment (IDE) Layer that transforms coding from simple text generation into intelligent system architecture.
 
-Designed for high-performance engineering teams, Anagum eliminates "AI Spaghetti Code" by enforcing Template-First Development. It combines advanced multi-agent orchestration, cost-optimized model routing (SLMs + LLMs), and a self-healing compilation loop to ensure that every line of code generated is production-grade, secure, and structurally sound. ✨ Core Features: The Backend Brain
+Designed for high-performance engineering teams, Anagum eliminates "AI Spaghetti Code" by enforcing Template-First Development. It combines advanced multi-agent orchestration, cost-optimized model routing (SLMs + LLMs), and a self-healing compilation loop to ensure that every line of code generated is production-grade, secure, and structurally sound. 
+
+✨ Core Features: The Backend Brain
 🏗️ Template-First RAG (The Blueprint Engine)
 Most agents hallucinate folder structures. Anagum retrieves them from a curated Knowledge Base of Enterprise Blueprints.
 
@@ -25,7 +27,9 @@ Headless E-commerce: Cart logic, payment gateways (Stripe), ISR.
 Data Agents: Task queues (Celery/BullMQ), SSE, Vector storage.
 AST-Based Indexing: We index templates by Abstract Syntax Tree (structure), not just keywords, ensuring the AI understands how components fit together.
 Blueprint Validation: Automatic checks to ensure new code adheres to the selected architecture (e.g., "No direct DB calls in Client Components").
+
 🤖 Multi-Agent Orchestration ("The Tri-Core")
+
 We decouple the workload into specialized agents to mimic a real engineering team, all orchestrated via **high-performance REST APIs** for seamless IDE integration:
 
 @Architect: Analyzes the prompt, selects the Blueprint, drafts a TODO.md plan.
