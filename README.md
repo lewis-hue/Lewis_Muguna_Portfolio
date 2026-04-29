@@ -11,7 +11,112 @@ It serves as a living record of my achievements, technical growth, and certifica
 ## Projects
 
 #
-<img align="left" width="250" height="150" src="https://github.com/lewis-hue/Anagum-coder/blob/main/logo.png"> **[🔷 ANAGUM-CODER: The Blueprint-First Agentic Platform](https://github.com/lewis-hue/Anagum-coder.git)**
+<img align="left" width="250" height="150" src="https://github.com/lewis-hue/katibaai/blob/main/Landing%20page.png?raw=true"> **[KATIBA AI: AI-Powered Kenyan Constitution Assistant](https://github.com/lewis-hue/katibaai.git)**
+
+Katiba AI is a production-grade Retrieval-Augmented Generation platform built to make the Constitution of Kenya easier to understand, search, and reason about through natural-language conversation.
+
+It is not just a chatbot. Katiba AI is a full-stack civic intelligence system that combines constitutional document retrieval, AI-generated answers, article-level citations, streamed responses, workspace collaboration, subscription billing, identity management, usage analytics, and secure cloud deployment.
+
+Built end-to-end, the system runs as a multi-service cloud architecture with a React/Vite frontend, FastAPI backend services, Gemini-powered embeddings and generation, Milvus vector search, MongoDB persistence, Redis pub/sub, Keycloak authentication, Lago metering, Stripe checkout, and M-Pesa STK Push payments.
+
+<br clear="left"/>
+
+✨ **Core Features: The Constitutional Intelligence Engine**
+
+🏛️ **Retrieval-Augmented Constitutional Q&A**
+
+Katiba AI grounds every answer in retrieved constitutional evidence instead of relying on generic model memory.
+
+- Constitution of Kenya chunked by legal hierarchy: chapter, article, clause, and section.
+- Gemini embeddings stored in Milvus for high-speed semantic retrieval.
+- Top-K constitutional evidence retrieved before every answer.
+- Article-aware citations generated from retrieved source material.
+- Hallucination checks ensure cited articles appear in the retrieved evidence.
+- Evidence panel shows the constitutional grounding behind the assistant’s answer.
+
+⚡ **Real-Time Streamed AI Chat**
+
+The platform delivers a polished conversational experience with token-by-token streaming.
+
+- Server-Sent Events for live assistant responses.
+- Markdown rendering with clean typography.
+- Inline constitutional citations.
+- Clickable article references.
+- Chat history and URL-synced conversations.
+- Read-aloud support, voice input, notes, feedback, branching, and public shared chats.
+
+🏢 **Workspace Collaboration**
+
+Katiba AI supports team-based usage for higher-tier users.
+
+- Owner, admin, member, and viewer roles.
+- Workspace-level tier inheritance.
+- Shared chats and shared files.
+- Invite links with expiring tokens.
+- Per-member usage analytics.
+- Owner/admin-only billing and usage controls.
+- Backend-enforced role-based access control.
+
+💳 **Subscription, Billing, and Payments**
+
+The system includes a dedicated billing service for monetization and usage management.
+
+- Stripe Checkout for card payments.
+- Safaricom Daraja M-Pesa STK Push for mobile money payments.
+- Lago for metered subscriptions and usage events.
+- SendGrid for transactional billing emails.
+- Canonical backend-owned plan definitions.
+- Webhook handling for Stripe, Lago, and M-Pesa.
+- Keycloak role synchronization after payment and cancellation.
+
+🔐 **Production Security and Identity**
+
+Katiba AI uses Keycloak as the identity provider and applies security controls across the stack.
+
+- Email/password login and Google SSO.
+- JWT verification with RS256 and JWKS.
+- Public issuer validation for production OIDC correctness.
+- CSRF protection for mutating requests.
+- Redis-based rate limiting.
+- Hashed public share tokens.
+- CORS allow-listing.
+- Audit logs for sensitive workspace, invite, share, and billing actions.
+- Secrets managed through Google Secret Manager.
+
+☁️ **Cloud-Native Architecture**
+
+The system is deployed on Google Cloud with separate services for clean domain boundaries and safer operations.
+
+- React frontend on Cloud Run.
+- Core AI/chat API on Cloud Run.
+- Billing API on Cloud Run.
+- Keycloak auth proxy on Cloud Run.
+- Stateful infrastructure on Compute Engine.
+- MongoDB for users, chats, messages, workspaces, usage, and audit logs.
+- Milvus for vector search.
+- Redis for SSE pub/sub, rate limiting, session cache, and workspace context.
+- Cloud Build CI/CD with Artifact Registry and revision-based rollback.
+
+📊 **Analytics and Operational Readiness**
+
+Katiba AI includes production-grade observability and analytics.
+
+- Usage ledger for user and workspace consumption.
+- Workspace analytics with member-level breakdowns.
+- Structured JSON logs.
+- Health endpoints for backend dependencies.
+- Cloud Logging integration.
+- Cloud Run revision rollback strategy.
+- Clear scale path toward managed Redis, managed MongoDB, and dedicated vector infrastructure.
+
+🚀 **Engineering Scope**
+
+Katiba AI demonstrates end-to-end ownership across AI engineering, backend architecture, frontend product engineering, authentication, billing, security, DevOps, and cloud infrastructure.
+
+The project reflects principal-level system design by connecting a real civic use case with a reliable RAG pipeline, production SaaS architecture, secure identity, monetization, collaboration, and scalable cloud operations.
+
+#
+<img align="left" width="250" height="150" src="https://github.com/lewis-hue/Anagum-coder/blob/main/logo.png"> **[ANAGUM-CODER: The Blueprint-First Agentic Platform](https://github.com/lewis-hue/Anagum-coder.git)**
 
 ANAGUM-CODER is not just another autocomplete tool. It is a revolutionary VS Code Integrated Development Environment (IDE) Layer that transforms coding from simple text generation into intelligent system architecture.
 
