@@ -11,6 +11,77 @@ It serves as a living record of my achievements, technical growth, and certifica
 ## Projects
 
 #
+<img align="left" width="250" height="150" src="https://github.com/lewis-hue/Lewis_Muguna_Portfolio/blob/main/catalog-sentinel.png?raw=true"> **[Catalog Sentinel: Agentic Catalog Verification for Music Distribution](https://github.com/lewis-hue/catalog-sentinel.git)**
+
+Catalog Sentinel is a production-grade agentic workflow that tells independent musicians where their music is actually live across roughly 28 stores, and turns every confirmed gap into a ready-to-send fix.
+
+It is not a scraper. Catalog Sentinel is a full-stack, verification-first system that connects to an artist's own distributor account through an attended, read-only cloud browser, reads the entire catalog, confirms real store presence, verifies lyrics per store, quantifies catalog health, and drafts evidence-backed support tickets, all with a human in the loop at every consequential step.
+
+Built end-to-end as a TypeScript monorepo, the system runs as cooperating cloud services: a Next.js Backend-for-Frontend with a React frontend, a Fastify API, BullMQ and Redis background workers, PostgreSQL with Prisma, a Steel cloud browser driven by Playwright over CDP, Keycloak OIDC identity with Google federation, and AWS KMS envelope encryption.
+
+<br clear="left"/>
+
+✨ **Core Features: The Catalog Integrity Engine**
+
+🎧 **Real-Browser Catalog Extraction**
+
+Catalog Sentinel reads ground truth from a live browser instead of trusting a "delivered" flag.
+
+- Attended, read-only Steel cloud-browser session signed in by the artist, with no passwords or 2FA ever stored.
+- Playwright-over-CDP DOM reader for catalogs that expose no JSON API.
+- Durable, checkpointed pipeline: catalog-index, plan-chunks, release-chunk, retry-failed, reconcile, finalize.
+- Resumes mid-scan after a crash instead of restarting.
+- Field-level provenance that separates source absence from extraction failure.
+
+🛡️ **Verification-First Store Presence**
+
+Every release is checked across the stores with evidence, never a guess.
+
+- Per-store DSP adapters for Spotify, Tidal, Deezer, Apple/iTunes, Audiomack, SoundCloud, and YouTube.
+- Serper web-search confirmation for stores without a usable API.
+- Identity matching that confirms a hit is really the artist's release, not a same-titled track by someone else.
+- Every result classified live, missing, or unverifiable, so a rate-limited store never becomes a false "not live".
+
+🎤 **Per-Store Lyrics Coverage and One-Click Fixer**
+
+- Store-by-store lyric availability checks.
+- A one-click fixer for closing lyric and metadata gaps.
+- Uncertain items routed to a human-approved manual review queue.
+
+🩺 **A Single Catalog Health Score**
+
+- One weighted score across metadata completeness, store presence, artist identity, and lyric coverage.
+- A transparent breakdown that quantifies exactly what is driving the number.
+
+🎫 **Evidence-Backed Support Tickets**
+
+- Auto-drafted, ready-to-send distributor support tickets for missing releases.
+- Exact track titles and ISRCs included, with CSV evidence export for the full audit.
+- Drafted, never sent, until the artist approves.
+
+🔔 **Change Detection and Release Alerts**
+
+- Diff-based comparison between audits, backed by a full audit history.
+- Release alerts when something that was live goes missing, so a disappearance never stays invisible.
+
+🔐 **Production Security and Identity**
+
+- Keycloak OIDC with Authorization Code plus PKCE and a confidential BFF client.
+- AWS KMS envelope encryption for session state, with jose-signed JWS gates.
+- Append-only hash-chained audit records and S3 Object Lock anchors.
+- Fail-closed configuration with no hardcoded secrets.
+
+☁️ **Cloud-Native Architecture**
+
+- Local Docker Compose stack, plus an AWS single-instance deploy behind Caddy auto-HTTPS.
+- A two-AZ ECS, Aurora, and ElastiCache production reference under infra/aws.
+- GitHub Actions CI/CD with typecheck, lint, and a 751-test suite gating every deploy.
+
+🚀 **Engineering Scope**
+
+Catalog Sentinel demonstrates end-to-end ownership across agentic workflow design, browser automation, backend architecture, verification and reliability engineering, security, and cloud operations. It connects a real problem faced by independent artists with a durable, human-in-the-loop system that produces evidence a user can act on, reducing a full day of manual store-by-store checking to about ten minutes.
+
+#
 <img align="left" width="250" height="150" src="https://github.com/lewis-hue/katibaai/blob/main/Landing%20page.png?raw=true"> **[KATIBA AI: AI-Powered Kenyan Constitution Assistant](https://github.com/lewis-hue/katibaai.git)**
 
 Katiba AI is a production-grade Retrieval-Augmented Generation platform built to make the Constitution of Kenya easier to understand, search, and reason about through natural-language conversation.
