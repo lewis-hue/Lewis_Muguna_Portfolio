@@ -13,6 +13,8 @@ It serves as a living record of my achievements, technical growth, and certifica
 #
 <img align="left" width="250" height="150" src="https://github.com/lewis-hue/Lewis_Muguna_Portfolio/blob/main/catalog-sentinel.png?raw=true"> **[Catalog Sentinel: Agentic Catalog Verification for Music Distribution](https://github.com/lewis-hue/catalog-sentinel.git)**
 
+▶ **[Watch the demo walkthrough](https://github.com/lewis-hue/Lewis_Muguna_Portfolio/blob/main/catalog-sentinel-demo.mp4)** (a real catalog audit, from connect to drafted fix)
+
 Catalog Sentinel is a production-grade agentic workflow that tells independent musicians where their music is actually live across roughly 28 stores, and turns every confirmed gap into a ready-to-send fix.
 
 It is not a scraper. Catalog Sentinel is a full-stack, verification-first system that connects to an artist's own distributor account through an attended, read-only cloud browser, reads the entire catalog, confirms real store presence, verifies lyrics per store, quantifies catalog health, and drafts evidence-backed support tickets, all with a human in the loop at every consequential step.
