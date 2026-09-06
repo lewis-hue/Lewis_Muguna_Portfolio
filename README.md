@@ -225,6 +225,20 @@ The solution runs on **Dockerized infrastructure**, backed by **PostgreSQL**, an
 AVVO’s architecture is designed for **scalability**, **continuous optimization**, and **real-time feedback loops**, making it a **robust API-driven AI system** for teams aiming to scale viral content creation through automation and machine learning.
 
 #
+**[AI Job Outreach Automation: Autonomous Executive-Assistant Job Sourcing](https://github.com/lewis-hue/AI-Job-Outreach-Automation.git)**
+
+An enterprise-grade automation system that turns a full job-outreach pipeline into one autonomous workflow. It scrapes postings across multiple job boards, validates quality roles through multi-tier filtering and AI confidence scoring, generates personalized outreach messages with an LLM using several professional templates, and syncs everything to a Google Sheets dashboard for sales-team review and application tracking. Built on a Python FastAPI backend with APScheduler for daily and interval-based runs, async scraping with rate limiting, and a React and TypeScript dashboard for launching scrapes, reviewing jobs, generating messages, and exporting to CSV or JSON.
+
+**Skills and tools:** Python, FastAPI, APScheduler, LLM message generation, Google Sheets API, async processing, React, TypeScript, Tailwind CSS.
+
+#
+**[Outreach Automation: LangGraph Multi-Step Outreach Pipeline](https://github.com/lewis-hue/outreach-automation.git)**
+
+A LangGraph-based outreach pipeline that models scraping, validation, and LLM-driven message generation as a graph of composable, independently testable steps. It uses LangChain for model calls, Pydantic models for validated data structures at every stage, and LangSmith tracing for run-level observability, making the outreach workflow auditable and straightforward to extend.
+
+**Skills and tools:** Python, LangGraph, LangChain, LangSmith, Pydantic, agentic pipeline design.
+
+#
 <img align="left" width="250" height="150" src="https://github.com/lewis-hue/REVIEWS-HQ/blob/main/flex.webp"> **[Reviews HQ - AI-Powered Property Management Analytics Platform](https://github.com/lewis-hue/REVIEWS-HQ.git)**
 
 Reviews HQ is an AI analytics platform for property management, offering real-time sentiment analysis. It streamlines guest communication with AI response suggestions, live translation, and voice-to-text. The high-performance stack uses a **FastAPI-driven REST API backend** with Groq LLM, a React 18 frontend, and MongoDB Atlas, deployed scalably via Docker on Google Cloud Run.
