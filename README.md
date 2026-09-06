@@ -239,6 +239,13 @@ A LangGraph-based outreach pipeline that models scraping, validation, and LLM-dr
 **Skills and tools:** Python, LangGraph, LangChain, LangSmith, Pydantic, agentic pipeline design.
 
 #
+**[DataScrapex: AI Job-Data Scraper and Outreach Dashboard](https://github.com/lewis-hue/DataScrapex.git)**
+
+A data-extraction platform that turns raw job-board listings into structured, actionable output. It pulls postings through the Adzuna job API, applies quality filtering, enriches each result with an AI-generated personalized outreach message, and exports to CSV, JSON, or a live Google Sheet. A Python FastAPI backend exposes the scraping and export endpoints with scheduled runs, paired with a React and TypeScript dashboard for launching scrapes, reviewing extracted jobs, and managing exports.
+
+**Skills and tools:** Python, FastAPI, Adzuna API, data extraction, LLM enrichment, Google Sheets API, async processing, React, TypeScript, Tailwind CSS.
+
+#
 <img align="left" width="250" height="150" src="https://github.com/lewis-hue/REVIEWS-HQ/blob/main/flex.webp"> **[Reviews HQ - AI-Powered Property Management Analytics Platform](https://github.com/lewis-hue/REVIEWS-HQ.git)**
 
 Reviews HQ is an AI analytics platform for property management, offering real-time sentiment analysis. It streamlines guest communication with AI response suggestions, live translation, and voice-to-text. The high-performance stack uses a **FastAPI-driven REST API backend** with Groq LLM, a React 18 frontend, and MongoDB Atlas, deployed scalably via Docker on Google Cloud Run.
