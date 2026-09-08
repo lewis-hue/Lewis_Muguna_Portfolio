@@ -278,14 +278,6 @@ Qubiten Compliance Chatbot is a Retrieval-Augmented Generation (RAG) system leve
 **Skills and tools:** RAG, LLM fine-tuning, Vertex AI, Flask, Python, FAISS/Pinecone, **RESTful APIs**, and UI development, ensuring accurate, scalable regulatory guidance using a fine-tuned knowledge base and chat interface.
 
 #
-<img align="left" width="250" height="150" src="https://github.com/lewis-hue/End-to-End-Data-Architecture-and-Analytics-Pipeline-on-AWS/blob/main/images.jpg"> **[End-to-End Data Architecture and Analytics Pipeline on AWS
-](https://github.com/lewis-hue/End-to-End-Data-Architecture-and-Analytics-Pipeline-on-AWS.git)**
-
-This project simulates the design of an end-to-end data engineering and analytics pipeline using AWS. It demonstrates the use of AWS services like Amazon EKS for container orchestration, Amazon S3 for data storage, AWS Glue for ETL processing, Amazon Athena for querying, Amazon SageMaker for machine learning, and Amazon QuickSight for data visualization. The pipeline integrates **internal REST APIs** to trigger data workflows and provide programmatic access to analytics. The pipeline simulates a scalable, secure architecture for ingesting, transforming, analyzing, and visualizing customer transactional data, providing business insights and predictive models in a telecommunications context.
-
-**Skills & Tools:** Amazon Elastic Kubernetes Service (EKS), Amazon S3, AWS Glue, Amazon Athena, Amazon SageMaker, Amazon QuickSight, Apache Doris, **REST API integration**, data pipeline design and implementation, data ingestion, transformation, and feature engineering, scalable architecture creation, feature engineering, model development and training, predictive modeling for customer behavior analysis, secure and scalable cloud infrastructure design, end-to-end data pipeline integration and optimization, querying, reporting, business intelligence (BI) insights generation, and data-driven decision-making.
-
-#
 <img align="left" width="250" height="150" src="https://github.com/lewis-hue/Lewis_Data_Science_Profile/blob/main/Snowflake.jpg"> **[Fraud Detection and Financial Transaction Analysis Using Snowflake, Machine Learning, and Tableau](https://github.com/lewis-hue/Fraud-Detection-Financial-Transaction-Analysis-Snowflake-.git)**
 
 This project showcases advanced SQL, Snowflake, and Tableau skills to analyze financial transactions for fraud detection and customer insights. Using Snowflake for data warehousing and SQL for data transformation, I built a robust ETL pipeline to process and stage transaction data. Key analyses include customer segmentation, fraud risk scoring, and transaction breakdowns. I developed interactive Tableau dashboards to visualize customer spending behavior and fraud risks. This project optimized fraud prevention, enhanced customer targeting, and improved financial operations through actionable insights, leveraging advanced analytics, data visualization, and cloud data infrastructure.
