@@ -66,6 +66,29 @@ A LangGraph-based outreach pipeline that models scraping, validation, and LLM-dr
 
 <br clear="left"/>
 
+## Selected client demos (source private)
+
+Built under freelance engagements. The application code is client-owned and private, so each
+is shown as a recorded walkthrough, presented as a demo rather than a codebase.
+
+#
+<img align="left" width="250" height="150" src="https://github.com/lewis-hue/Lewis_Muguna_Portfolio/blob/main/thumb-workbench.png?raw=true"> **Agentic Plan Workbench: LLM Red-Teaming for Function Calls**
+
+An interactive workbench where a Critic agent (a Groq-hosted LLM) adversarially reviews LLM function-call plans, surfaces schema and logic flaws, and generates an optimized "golden plan," doubling as a synthetic-data engine for fine-tuning triplets. Built with Python, FastAPI, Pydantic, the OpenAI SDK, and Monaco Editor.
+
+Watch the demo: [agentic-plan-workbench-demo.mp4](agentic-plan-workbench-demo.mp4)
+
+<br clear="left"/>
+
+#
+<img align="left" width="250" height="150" src="https://github.com/lewis-hue/Lewis_Muguna_Portfolio/blob/main/thumb-qubiten.png?raw=true"> **Qubiten AI: Citation-Backed RAG Document Assistant**
+
+A Retrieval-Augmented Generation assistant for secure document analysis, with citation-backed streamed answers, privacy-preserving client-side document processing in the browser, and voice input. Built with Python, Flask, LangChain, FAISS, a Groq-hosted LLaMA 3.1 model, and Google Cloud Run.
+
+Watch the demo: [qubiten-ai-demo.mp4](qubiten-ai-demo.mp4)
+
+<br clear="left"/>
+
 ## Core Competencies
 
 - **AI Engineering:** Agentic and multi-agent systems, RAG pipelines, retrieval and evaluation, LLM integration (OpenAI, Anthropic, Groq, Gemini), function-call validation, AI safety and governance.
