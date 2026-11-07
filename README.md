@@ -24,7 +24,7 @@ The engineering discipline is the point: a store it cannot confirm is reported a
 
 A production RAG SaaS that makes the Constitution of Kenya searchable and conversational, with article-level citations grounded in retrieved evidence. It runs as a multi-service system: a FastAPI backend with Celery workers, Milvus vector search, MongoDB persistence, Redis for pub/sub and rate limiting, Keycloak identity, and a full Lago billing stack with Stripe and M-Pesa, deployed on Google Cloud with Cloud Build CI/CD. The backend is extensively tested.
 
-This repository is a case study (product screenshots and an architecture overview); the full source is private and available to walk through on request.
+It is live at **[katiba.ai/chat](https://katiba.ai/chat)** — ask it a constitutional question and the answer streams back with the articles it is grounded in. The linked repository is a case study (product screenshots and an architecture overview); the full source is private and available to walk through on request.
 
 **Stack:** FastAPI, Celery, Milvus, MongoDB, Redis, Keycloak, Lago, Stripe, M-Pesa, GCP.
 
